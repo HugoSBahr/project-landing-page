@@ -44,7 +44,7 @@ body {
 
 .hero {
     display: flex;
-    height: 50vh;
+    height: 60vh;
     border: 4px solid khaki;
     margin-left: 20vh;
     margin-right: 20vh;
@@ -102,4 +102,40 @@ body {
     background-color: #a3a3a3;
     color: #F9FAF8;
     font-size: 20px;
+}
+
+/*---------------------------------*/
+
+.info-container {
+    display: flex;
+    height: 60vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    border: 4px solid indigo;
+    flex-direction: column;
+}
+
+#title {
+    display: flex;
+    border: solid 4px gainsboro;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.box-container {
+    display: flex;
+    border: solid 4px firebrick;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+#box {
+    width: 160px;
+    height: 160px;
+    border: solid 4px #3882F6;
+    border-radius: 12px;
 }
