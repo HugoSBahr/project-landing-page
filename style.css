@@ -139,6 +139,7 @@ body {
     height: 240px;
     border: solid 4px navy;
     flex-direction: column;
+    align-items: center;
 }
 
 #box {
@@ -149,5 +150,11 @@ body {
 }
 
 #subtext {
-    font-weight: 300;
+    font-weight: 500;
+    border: 2px solid sandybrown;
+    width: 160px;
+    text-align: center;
 }
+
+/* ------------------------------------- */
+
