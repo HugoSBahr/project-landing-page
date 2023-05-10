@@ -147,3 +147,7 @@ body {
     border: solid 4px #3882F6;
     border-radius: 12px;
 }
+
+#subtext {
+    font-weight: 300;
+}
