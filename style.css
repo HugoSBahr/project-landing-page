@@ -210,18 +210,36 @@ body {
 #pop-up {
     display: flex;
     border: 6px solid #3882F6;
-    width: 900px;
+    width: 1000px;
     height: 140px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 12px;
 }
 
 #pop-text {
     border: solid 2px red;
-    width: 30px;
-    height: 30px;
+    height: 80px;
+    flex-direction: column;
+    color: #F9FAF8;
 }
 
-#pop-button{
-    border: solid 2px red;
-    width: 30px;
-    height: 30px;
+#pop-title {
+    font: 700;
+    font-size: 24px;
+}
+
+#under-text {
+    color: #E5E7EB;
+}
+
+#pop-up button {
+    font-size: 16px;
+    background-color: #3882F6;
+    width: 140px;
+    height: 40px;
+    border: solid 2px #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 8px;
 }
