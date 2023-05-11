@@ -243,3 +243,14 @@ body {
     color: #F9FAF8;
     border-radius: 8px;
 }
+
+/* ------------------------------------- */
+
+.footer {
+    display: flex;
+    border: 4px solid indigo;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
