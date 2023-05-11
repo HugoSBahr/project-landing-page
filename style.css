@@ -244,6 +244,9 @@ body {
     border-radius: 8px;
 }
 
+#pop-up button:active {
+    background-color: #2d65bf;
+}
 /* ------------------------------------- */
 
 .footer {
@@ -253,4 +256,6 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
 }
