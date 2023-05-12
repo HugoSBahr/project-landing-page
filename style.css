@@ -5,7 +5,6 @@ body {
 
 .header {
     display: flex;
-    border: 5px solid red;
     height: 80px;
     justify-content: space-between;
     background-color: #1F2937;
@@ -16,14 +15,12 @@ body {
 
 .right-links {
     display: flex;
-    border: 2px solid purple;
     justify-content: center;
     align-items: center;
 }
 
 .left-links {
     display: flex;
-    border: 2px solid orange;
     gap: 16px;
     justify-content: center;
     align-items: center;
@@ -46,28 +43,26 @@ body {
 .hero {
     display: flex;
     height: 450px;
-    border: 4px solid khaki;
     padding-left: 180px;
     padding-right: 180px;
     background-color: #1F2937;
+    flex: 0;
 }
 
 
 .hero-text {
     display: flex;
-    border: 4px solid yellow;
     flex-basis: 50%;
     flex-direction: column;
     background-color: #1F2937;
-    padding-top: 80px;
+    padding-top: 100px;
     gap: 4px;
 }
 
 .hero-image {
     display: flex;
-    border: 4px solid honeydew;
     flex-basis: 50%;
-    padding-top: 80px;
+    padding-top: 100px;
     background-color: #1F2937;
 }
 
@@ -112,38 +107,38 @@ body {
 
 .info-container {
     display: flex;
-    height: 460px;
+    height: 500px;
     padding-left: 180px;
     padding-right: 180px;
-    border: 4px solid indigo;
     flex-direction: column;
+
 }
 
 #title {
     display: flex;
-    border: solid 4px gainsboro;
     font-size: 36px;
     font-weight: bold;
     justify-content: center;
     padding: 20px;
+    flex: 0;
 }
 
 .box-container {
     display: flex;
-    border: solid 4px firebrick;
     height: 500px;
     justify-content: center;
     align-items: center;
     gap: 36px;
+
 }
 
 #outer-box {
     display: flex;
     width: 180px;
     height: 240px;
-    border: solid 4px navy;
     flex-direction: column;
     align-items: center;
+
 }
 
 #box {
@@ -155,7 +150,6 @@ body {
 
 #subtext {
     font-weight: 500;
-    border: 2px solid sandybrown;
     width: 160px;
     text-align: center;
 }
@@ -164,7 +158,6 @@ body {
 
 .quote-container {
     display: flex;
-    border: 5px solid darkcyan;
     height: 440px;
     background-color: #E5E7EB;
     justify-content: center;
@@ -176,7 +169,6 @@ body {
 .flex-container {
     display: flex;
     width: 848px;
-    border: solid 4px yellowgreen;
     height: 220px;
     flex-direction: column;
     justify-content: center;
@@ -184,7 +176,6 @@ body {
 
 
 #quote {
-    border: 4px solid slateblue;
     font-size: 36px;
     font-style: italic;
     font-weight: 300 lighter;
@@ -194,7 +185,6 @@ body {
 }
 
 #author {
-    border: 4px solid darkgoldenrod;
     width: 240px;
     font-size: 24px;
     align-self: flex-end;
@@ -206,7 +196,6 @@ body {
 .pop-container {
     display: flex;
     height: 300px;
-    border: 4px solid chocolate;
     justify-content: center;
     align-items: center;
     padding-left: 180px;
@@ -225,7 +214,6 @@ body {
 }
 
 #pop-text {
-    border: solid 2px red;
     height: 80px;
     flex-direction: column;
     color: #F9FAF8;
@@ -257,7 +245,6 @@ body {
 
 .footer {
     display: flex;
-    border: 4px solid indigo;
     height: 100px;
     justify-content: center;
     align-items: center;
