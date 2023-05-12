@@ -81,14 +81,17 @@ body {
     color: #E5E7EB;
 }
 
-#button {
-    width: 20%;
-    height: 10%;
+.hero-text button {
+    width: 140px;
+    height: 40px;
     background-color: #3882F6;
     color: white;
-    border: 6px solid #3882F6;
     border-radius: 6px;
     font-size: 18px;
+}
+
+.hero-text button:active {
+    background-color: #2d65bf;
 }
 
 
@@ -171,9 +174,9 @@ body {
 
 .flex-container {
     display: flex;
-    width: 900px;
+    width: 848px;
     border: solid 4px yellowgreen;
-    height: 300px;
+    height: 220px;
     flex-direction: column;
     justify-content: center;
 }
@@ -182,6 +185,8 @@ body {
 #quote {
     border: 4px solid slateblue;
     font-size: 36px;
+    font-style: italic;
+    font-weight: 300 lighter;
     color: #1F2937;
     width: 840px;
 
